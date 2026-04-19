@@ -47,14 +47,6 @@ Extract both folders so you have actual folders named:
 
 ---
 
-# HAT-P-36 Analysis
-
-This project has two notebooks:
-- spectrum_pipeline.ipynb
-- transit_pipeline.ipynb
-
----
-
 ## STEP 4: Move the folders
 
 Drag and drop (or copy/paste) BOTH folders into the data folder.
