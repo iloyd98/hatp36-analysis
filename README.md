@@ -1,84 +1,79 @@
 # HAT-P-36 Analysis
 
-This repository presents a full analysis of the HAT-P-36 system, including:
-
-- Spectroscopic reduction of the host star (HAT-P-36)
-- Transit photometry analysis of HAT-P-36 b
-- Estimation of stellar temperature and planetary radius
+This project has two notebooks:
+- spectrum_pipeline.ipynb
+- transit_pipeline.ipynb
 
 ---
 
-## Repository Structure
+## STEP 1: Download everything
 
-- data/ : Observational data (FAST + KeplerCam)
-- notebooks/ : Analysis pipelines
-- results/ : Generated plots and outputs
+1. Download this repo.
+2. Open the Google Drive link:
 
----
+https://drive.google.com/drive/folders/1fTodVuM6U_5bwtF_rLCyS34d3GN17Qdi?usp=sharing
 
-## Data Access
+3. Inside the Google Drive folder, you will see two folders:
+   - FAST
+   - KeplerCam
 
-Due to file size constraints, the full dataset (~5 GB) is hosted externally:
-
-[INSERT GOOGLE DRIVE LINK HERE]
-
-### Setup Instructions
-
-1. Download the dataset from the link above.
-2. Place the data into the following directory structure:
-
-Place FAST data inside:
-data/FAST/2026-03-18/
-
-Place KeplerCam data inside:
-data/KeplerCam/2026-03-18/
-
-The notebook assumes this exact structure.
+Download BOTH folders.
 
 ---
 
-## How to Run
+## STEP 2: (IMPORTANT) Fix the folder names 
 
-1. Clone this repository:
+Google Drive may rename folders when downloading.
 
-git clone https://github.com/iloyd98/hatp36-analysis.git
-cd hatp36-analysis
+Make sure the folders are named EXACTLY:
 
-2. Install required packages:
+FAST  
+KeplerCam  
 
-pip install astropy photutils plotly batman-package
+If they are named something like:
+- FAST-20260419T023638Z-3-001
 
-3. Launch Jupyter:
-
-jupyter lab
-
-4. Open and run:
-
-notebooks/hatp36_analysis.ipynb
-
-5. Run all cells from top to bottom.
+Rename them before continuing.
 
 ---
 
-## Reproducibility
+## STEP 3: Extract the zip files
 
-This repository is designed to be fully reproducible:
+Each download will be a .zip file.
 
-- All file paths are relative
-- The notebook runs end-to-end without modification
-- All figures and results are generated directly from the data
-
----
-
-## Notes
-
-- The FAST pipeline performs spectral reduction and temperature estimation.
-- The KeplerCam pipeline extracts a transit light curve and fits a transit model.
-- Stellar parameters used in the transit fit are consistent with literature values for HAT-P-36.
+Extract both folders so you have actual folders named:
+- FAST
+- KeplerCam
 
 ---
 
-## Author
+# HAT-P-36 Analysis
 
-Ian Loyd  
-Harvard University — ASTRON 100
+This project has two notebooks:
+- spectrum_pipeline.ipynb
+- transit_pipeline.ipynb
+
+---
+
+## STEP 4: Move the folders
+
+Drag and drop (or copy/paste) BOTH folders into the data folder.
+
+---
+
+## STEP 5: Run the notebooks
+
+Open the notebook folder.
+
+Open each notebook and run ALL cells:
+
+1. spectrum_pipeline.ipynb
+2. transit_pipeline.ipynb
+
+---
+
+## NOTES
+
+- Do NOT change any file paths!
+- Everything should run as-is.
+- All plots will appear in the notebook.
