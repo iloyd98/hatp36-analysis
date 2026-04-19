@@ -23,17 +23,17 @@ Note: KeplerCam is a large download and may take some time.
 
 ---
 
-## STEP 2: (IMPORTANT) Fix the folder names 
+## STEP 2: (IMPORTANT) Fix the folder names
 
-Google Drive may rename folders when downloading.
+Google Drive WILL rename folders when downloading. KeplerCam will download in multiple folders (more on this below).
 
 Make sure the folders are named EXACTLY:
 
 FAST  
-KeplerCam  
+KeplerCam, KeplerCam1, KeplerCam2  
 
-If they are named something like:
-   - FAST-20260419T023638Z-3-001
+They may download as something like:
+- FAST-20260419T023638Z-3-001  
 
 Rename them before continuing.
 
@@ -43,15 +43,27 @@ Rename them before continuing.
 
 Each download will be a .zip file.
 
-Extract both folders so you have actual folders named:
-   - FAST
-   - KeplerCam
+Extract all zip files.
+
+IMPORTANT (KeplerCam only):
+
+1. Unzip all 3 KeplerCam files.
+2. Open Terminal.
+3. Navigate to the folder containing KeplerCam, KeplerCam1, KeplerCam2 (cd /Users/YOURNAME/...)
+4. Run:
+   rsync -av KeplerCam*/ KeplerCam/
+
+5. Verify there are 619 files in KeplerCam by copying and pasting this into terminal and pressing enter:
+   
+   find KeplerCam -type f | wc -l
+
+   If the output says 619, then you did this part correctly!
 
 ---
 
 ## STEP 4: Move the folders
 
-Drag and drop (or copy/paste) BOTH folders into the data folder.
+Drag and drop (or copy/paste) BOTH KeplerCam and FAST folders into the data folder.
 
 ---
 
