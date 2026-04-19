@@ -31,7 +31,7 @@ FAST
 KeplerCam  
 
 If they are named something like:
-- FAST-20260419T023638Z-3-001
+   - FAST-20260419T023638Z-3-001
 
 Rename them before continuing.
 
@@ -42,8 +42,8 @@ Rename them before continuing.
 Each download will be a .zip file.
 
 Extract both folders so you have actual folders named:
-- FAST
-- KeplerCam
+   - FAST
+   - KeplerCam
 
 ---
 
