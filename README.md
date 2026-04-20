@@ -30,7 +30,7 @@ Google Drive WILL rename folders when downloading. KeplerCam will download in mu
 Make sure the folders are named EXACTLY:
 
 FAST  
-KeplerCam, KeplerCam1, KeplerCam2  
+KeplerCam, KeplerCam1, KeplerCam2 (ensure there are no spaces between KeplerCam and the corresponding number).
 
 They may download as something like:
 - FAST-20260419T023638Z-3-001  
@@ -63,7 +63,7 @@ IMPORTANT (KeplerCam only):
 
 ## STEP 4: Move the folders
 
-Drag and drop (or copy/paste) BOTH KeplerCam and FAST folders into the data folder.
+Drag and drop (or copy/paste) BOTH KeplerCam and FAST folders into the data folder within the GitHub repo.
 
 ---
 
