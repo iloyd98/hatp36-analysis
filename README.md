@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/1fTodVuM6U_5bwtF_rLCyS34d3GN17Qdi?usp=sha
 
 Download BOTH folders.
 
-Note: KeplerCam is a large download and may take some time. Also, due to the large file size, the KeplerCam data will be zipped into 3 separate files. More on this below.
+Note: KeplerCam is a large download and may take some time.
 
 ---
 
